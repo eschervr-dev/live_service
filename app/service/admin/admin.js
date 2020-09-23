@@ -73,7 +73,7 @@ class AdminService extends Service {
   async login(params) {
     if(params.name=="super"){
       const admin = await this.getAdminBdyName(params.name);
-      if(admin==null){
+      if(!admin){
         params.password=md5(md5('super'));
         await this.ctx.service.admin.admin.create(params);
       }
