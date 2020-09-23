@@ -19,7 +19,7 @@ module.exports = appInfo => {
   config.middleware = ['token','live'];
 
   config.token={
-    ignore: ['/web/admin/admin/login','/web/api/*','/web/socket','/web/wx/*','/web/api/live']
+    ignore: ['/web/admin/admin/login','/web/api/*','/web/socket','/web/wx/*']
   }
 
 

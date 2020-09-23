@@ -29,8 +29,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-templet_service",
-    "stop": "egg-scripts stop --title=egg-server-templet_service",
+    "start": "egg-scripts start --daemon --title=egg-server-live_service",
+    "stop": "egg-scripts stop --title=egg-server-live_service",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
